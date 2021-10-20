@@ -28,6 +28,10 @@ public class C02_Faker extends TestBase {
 //Tarih icin ay secin
 //Tarih icin yil secin
 //Cinsiyeti secin
+        //pom xml e ekleyecegiimz faker kutuphanesi sayesinde isim soyisim mail dogum tarihi gibi verileri seleniuma uretebiliyoruz
+        //ilk once faker objesi olusturuyoruz ve faker classindan hazir methodlara ulasabiliyoruz
+
+
         Faker faker=new Faker();
         Actions actions=new Actions(driver);
         String email=faker.internet().emailAddress();
